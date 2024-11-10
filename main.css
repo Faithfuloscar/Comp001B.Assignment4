@@ -13,6 +13,11 @@ body{
     width: 100%;
 }
 
+.bar p{
+    -webkit-text-stroke: .50px rgb(0, 0, 0);
+
+}
+
 h1{
     font-size: 17px;
     padding-left: 20px;
@@ -38,7 +43,6 @@ nav ul{
     margin-top: 10px;
     color: rgb(255, 188, 63);
     -webkit-text-stroke: .25px rgb(29, 47, 78);
-
 }
 
 nav li{
@@ -91,7 +95,7 @@ p{
 }
 
 .style{
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     font-weight: 400;
     color: rgb(255, 188, 63);
